@@ -1,0 +1,8 @@
+.hero{
+    background: no-repeat url(./image/bg_hero_section.png);
+    background-size: contain;
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+}
+
+nav
