@@ -1,10 +1,37 @@
-.hero {
-    background-size: contain;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.navbar{   
+background-color: transparent; /* Make the navbar background transparent */
+padding: 0; /* Remove default padding */
 }
+.navbar img {    
+width: 100%; /* Make the image fill the navbar width / height: auto; / Maintain aspect ratio */
+display: block; /* Prevent any extra spacing below the image */
+ }
+.header{
+    height: 100vh;
+    width: 70vw;
+    background-image: url(./INGREDIENTS.png);
+    background-size:cover;
+}
+
+.btn-orange {
+    background-color: rgb(255, 38, 0); /* couleur de fond orange */
+    color: white; /* texte en blanc */
+    border: none; /* sans bordure */
+    padding: 10px 20px; /* padding pour le texte à l'intérieur du bouton */
+    
+    text-decoration: none; /* suppression de la décoration de texte */
+    display: inline-block; /* affichage en ligne */
+    font-size: 16px; /* taille de la police */
+    
+    cursor: pointer; /* curseur en forme de main survolant le bouton */
+    border-radius: 5px; /* bords arrondis */
+    transition: background-color 0.3s ease; /* transition douce pour le changement de couleur */
+  }
+  
+  .btn-orange:hover {
+    background-color: darkorange; /* couleur de fond orange foncé au survol */
+  }
+  
 
 .container {
     text-align: center;
@@ -32,6 +59,7 @@ p, h1, h3 {
 .card-body {
     background-color: #f9f9f9;
 }
+
 
 .footer {
     background-color: #2d6a4f;
